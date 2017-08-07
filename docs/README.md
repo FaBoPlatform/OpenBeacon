@@ -1,1 +1,3 @@
 # OpenBeacon
+
+[nrfGO](./nrfgo.md)
