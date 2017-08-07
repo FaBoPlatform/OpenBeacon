@@ -13,10 +13,14 @@ nrfgoStudioダウンロード先：https://www.nordicsemi.com/jpn/node_176/2.4GH
 ソフトデバイスには３種類あり、目的にあったソフトウェアデバイスを使用しなくてはいけない。ビーコンは、ペリフェラル機器なのでs110セントラル機器はS120,ペリフェラルとセントラル機器になるものは、s130をダウンロードして、指定してください。バージョンにもご注意ください。
 
 ## ソフトデバイス
+
 ソフトデバイスをダウンロード
 http://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822
+
 s110の場合は、S110-SD-v8をダウンロード（2016/4/8現在）
+
 s130の場合は、S130-SDをダウンロード(2016/4/8現在)　
+
 
 ## 接続方法
 Nordic nRF51882は、ARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲットがあり、Nordic nRF51882(ARM M0)は安価なJ-link lite(OEMによる購入)が必要となります。書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行う。
