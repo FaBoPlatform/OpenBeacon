@@ -5,7 +5,7 @@
 [Firmwareの焼き方](./docs/README.md)
 
 ## 概要
-NordicｎRF51またはｎRF52で、すでにビルドされているhexファイルを書き込む方法を説明します。ここではNodic NRF51を使用している技適認証済みBLEモジュールRaytacMDBT40を例としています。
+NordicｎRF51またはｎRF52で、すでにビルドされているhexファイルを書き込む方法を説明します。ここではNodic NRF51を使用している技適認証済みBLEモジュールRaytacMDBT40を例としています。ファームウェアは、ソフトデバイスとアプリケーションの２つで構成されております。
 
 ## 環境構築
 ### nrfgoStudioをインストール
@@ -13,7 +13,7 @@ Windowsを用意。Windowsの場合は、GUIによりファームウェア書き
 ダウンロード先：
 https://www.nordicsemi.com/jpn/node_176/2.4GHz-RF/nRFgo-Starter-Kit
 
-![nrfgoStduioDownload](./Photo/DownLoadG01.png  "nrfgoStudio")
+![nrfgoStduioDownload](./Photo/DownLoadG01.jpg  "nrfgoStudio")
 nRFgoダウンロード
 
 ### ソフトデバイスをインストール
@@ -34,7 +34,7 @@ s130の場合は、S130-SDをダウンロード　
 ##ファームウェア（FW)を書き込む
 
 ### 接続方法
-Nordic nRF51882のコアはARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲット対象が異なり、Nordic nRF51882(ARM M0)は安価なJ-link lite(OEMによる購入)が必要となります。書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行います。また、書き込むには、（BLEなど）ターゲットにも３Vの電源が必要になります。Fabo 2004 JLinkを用意し、下記の写真のようにします。
+Nordic nRF51882のコアはARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲット対象が異なり、Nordic nRF51882(ARM M0)は安価なJ-link liteのグレード以上(OEMによる購入)が必要となります。（使い勝手は多少悪くなりますがnRF51DKでも書き込みは可能です。）書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行います。また、書き込むには、（BLEなど）ターゲットにも３Vの電源が必要になります。Fabo 2004 JLinkを用意し、下記の写真のようにします。
 
 ![Connectting](./Photo/Connetting.JPG  "Connectting")
 接続の様子
