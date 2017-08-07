@@ -9,7 +9,7 @@ NordicｎRF51またはｎRF52で、すでにビルドされているhexファイ
 
 ## 環境構築
 ### nrfgoStudioをインストール
-Windowsを用意。Windowsの場合は、GUIによりファームウェア書き込みできるWindowsアプリケーションnRFgo Studioがあり、Windows64ビット版nRFgo Studio-Win64ダウンロードし、typicalに設定しインストールします。さらに、自動的にウィザードが立ち上がり、Commnad-Toolチェーンも一緒にインストールします。
+Windows(Vista以降)を用意。Windowsの場合は、GUIによりファームウェア書き込みできるWindowsアプリケーションnRFgo Studioがあり、Windows64ビット版nRFgo Studio-Win64ダウンロードし、typicalに設定しインストールします。さらに、自動的にウィザードが立ち上がり、Commnad-Toolチェーンも一緒にインストールします。
 ダウンロード先：
 https://www.nordicsemi.com/jpn/node_176/2.4GHz-RF/nRFgo-Starter-Kit
 
@@ -36,7 +36,7 @@ s130の場合は、S130-SDをダウンロード　
 ## ファームウェア（FW)を書き込む
 
 ### 接続方法
-Nordic nRF51882のコアはARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲット対象が異なり、Nordic nRF51882(ARM M0)は安価なJ-link liteのグレード以上(OEMによる購入)が必要となります。（使い勝手は多少悪くなりますがnRF51DKでも書き込みは可能です。）書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行います。また、書き込むには、（BLEなど）ターゲットにも３Vの電源が必要になります。Fabo製BLEの場合は、Fabo 2004 JLinkを用意し、下記の写真のようにします。
+Nordic nRF51882のコアはARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲット対象が異なり、Nordic nRF51882(ARM M0)は安価なJ-link liteのグレード以上(OEMによる購入)が必要となります。（使い勝手は多少悪くなりますがnRF51DKでも書き込みは可能です。）書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行います。また、書き込むには、（BLEなど）ターゲットにも３Vの電源が必要になります。Fabo製BLEの場合は、Fabo 2004 JLinkを用意し、J-LinkLiteをパソコンへつなぎ、下記の写真のようにします。
 
 ![Connectting](./Photo/Connetting.JPG  "Connectting")
 接続の様子
@@ -66,7 +66,7 @@ nrfgoStudioの Erase allボタンを押します。
 
 ### ファームウェアを書き込む
 
-バイナリ化されたファームウェアを書き込む。Program Applicationタブを選択して、任意の.hexファイルを選択しWriteボタンを押して書き込む。successfullyの表示がでたら、終了。パケットスニファー等で電波が出ているかを確認する。なお、ファームウェアの偽造防止のため、吸出し防止する場合は、Lock entire chip from readback チェックをすることで、禁止することができます。
+バイナリ化されたファームウェアを書き込む。Program Applicationタブを選択して、任意の.hexファイルを選択しWriteボタンを押して書き込む。successfullyの表示がでたら、終了。パケットスニファー等で電波が出ているかを確認する。なお、ファームウェアの偽造防止のため、吸出し防止する場合は、Lock entire chip from readback チェックをすることで、禁止することができます。ほかにもVerify,Readボタンで書き込みのチェック、ファームウェアの吸出しもできます。
 
 ![ProgrammingApplication](./Photo/ProgrammingApplication_LI.jpg  "ProgrammingApplication_LI")
 任意のアプリケーションを選択。programボタンで書き込みが開始されます。
