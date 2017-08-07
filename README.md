@@ -21,6 +21,8 @@ nrfgoStudioをインストールしたら、無線やデータを管理する基
 ソフトデバイスをダウンロード
 http://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822
 
+![Softdevice](./Photo/Softdevice.png  "Softdevice")
+
 s110の場合は、S110-SD-v8をダウンロード（2016/4/8現在）
 
 s130の場合は、S130-SDをダウンロード(2016/4/8現在)　
@@ -30,6 +32,8 @@ s130の場合は、S130-SDをダウンロード(2016/4/8現在)　
 ### 接続方法
 Nordic nRF51882は、ARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲットがあり、Nordic nRF51882(ARM M0)は安価なJ-link lite(OEMによる購入)が必要となります。書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行います。
 書き込むには、（BLEなど）ターゲットにも３Vの電源が必要になります。nRFgo studioを起動してターゲットをJ-linkと接続してnRF5x Programmingを選択すると、J-linkLiteのLEDが点滅しアクセスが始まる。（Windwos10ではnrfgoStudioが落ちやすいです。）
+
+![Connectting](./Photo/Connectting.JPG  "Connectting")
 
 ### フラッシュメモリを初期化
 RaytacBeacon MDBT40の場合は、はじめからデフォルトのテストファームウェアが入っており、ファームウェアを更新する場合でも、フラッシュメモリ領域に残っているので、 すべて初期化や消去しなくてはいけない。nrfgoStudioで簡単に消去できます。
