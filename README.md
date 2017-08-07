@@ -13,7 +13,7 @@ Windowsを用意。Windowsの場合は、ファームウェア書き込みソフ
 ダウンロード先：
 https://www.nordicsemi.com/jpn/node_176/2.4GHz-RF/nRFgo-Starter-Kit
 
-![nrfgoStduioDownload](./../Photo/DownLoadG01.png  "nrfgoStudio")
+![nrfgoStduioDownload](./Photo/DownLoadG01.png  "nrfgoStudio")
 
 ### ソフトデバイスをインストール
 
