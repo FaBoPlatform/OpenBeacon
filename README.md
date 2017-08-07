@@ -31,7 +31,7 @@ nRF51であれば、以下のものをダウンロードすれば十分でしょ
 s110の場合は、S110-SD-v8をダウンロード
 s130の場合は、S130-SDをダウンロード　
 
-##ファームウェア（FW)を書き込む
+## ファームウェア（FW)を書き込む
 
 ### 接続方法
 Nordic nRF51882のコアはARMマイコンが内蔵してあり、ARMマイコンのデバッグにはJ-linkが必要になる。J-linkにはARMマイコンによってターゲット対象が異なり、Nordic nRF51882(ARM M0)は安価なJ-link liteのグレード以上(OEMによる購入)が必要となります。（使い勝手は多少悪くなりますがnRF51DKでも書き込みは可能です。）書き込みのインターフェースにはJ-TAGの機能縮小版のSWDで通信を行います。また、書き込むには、（BLEなど）ターゲットにも３Vの電源が必要になります。Fabo 2004 JLinkを用意し、下記の写真のようにします。
@@ -63,6 +63,7 @@ nrfgoStudioの Erase allボタンを押します。
 ソフトデバイスが書き込みが成功すると、successfullyが表示され、Region0(Softdevice)ができます。
 
 ### ファームウェアを書き込む
+
 バイナリ化されたファームウェアを書き込む。Program Applicationタブを選択して、任意の.hexファイルを選択しWriteボタンを押して書き込む。successfullyの表示がでたら、終了。パケットスニファー等で電波が出ているかを確認する。なお、ファームウェアの偽造防止のため、吸出し防止する場合は、Lock entire chip from readback チェックをすることで、禁止することができます。
 
 ![ProgrammingApplication](./Photo/ProgrammingApplication_LI.jpg  "ProgrammingApplication_LI")
