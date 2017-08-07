@@ -55,7 +55,7 @@ nrfgoStudioの Erase allボタンを押します。
 
 
 ### ソフトデバイスの書き込み
-ソフトデバイスをスタック領域に書き込みます。 Softdevieタブを選択して、任意のファイル解凍したファイルの中にs130_nrf51_2.0.1_softdevice.hex（今回の場合）がある。これを選択し書き込みます。
+ソフトデバイスをスタック領域に書き込みます。 Softdevieタブを選択して、任意のファイル解凍したファイルの中にs130_nrf51_2.0.1_softdevice.hex（今回の場合）があります。これを選択し書き込みます。
 
 
 ![ProgrammingSoftDevice_LI](./Photo/ProgrammingSoftDevice_LI.jpg  "ProgrammingSoftDevice_LI")
