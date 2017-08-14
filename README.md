@@ -4,7 +4,7 @@
 
 [Firmwareの焼き方](./docs/README.md)
 
-## 概要
+## 概要（nrfgoの場合）
 NordicｎRF51またはｎRF52で、すでにビルドされているhexファイルを書き込む方法を説明します。ここではNodic NRF51を使用している技適認証済みBLEモジュールRaytacMDBT40を例としています。ファームウェアは、ソフトデバイスとアプリケーションの２つで構成されております。
 
 ## 環境構築
@@ -75,3 +75,44 @@ nrfgoStudioの Erase allボタンを押します。
 アプリケーションが書き込みが成功すると、Region１にアプリケーションが書き込まれます。
 
 書き込み後は、電波が出ているかどうか、BLE対応パケットスニファやアプリケーション（iBeaconで使えるiPhoneアプリAkabeaconManagerなど)により確認してください。
+
+## ファームウェア書き込み　Keilの場合
+ソースファイルからビルドして書き込む場合を説明いたします。
+ARMマイコンのビルドには今回ARM社から出ているKeilを使用します。
+ARM純正のコンパイラが使用できます。
+
+### Keilのダウンロード
+
+MDK－ARMをダウンロードします。
+
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/MDK-ARM_Select.jpg  "ProgrammingApplicationAfter_LI")
+
+ダウンロード先　Keilはコードサイズ３２KBまでなら無償で仕様できます。
+
+https://www.keil.com/download/product/
+
+インストールしたらKeilを起動します。
+
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/KeilTtile.jpg  "ProgrammingApplicationAfter_LI")
+
+### PackInstaller
+
+ネットにつながっていれば、自動的にターゲット候補がダウンロードします。
+
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/PackDownload.jpg  "ProgrammingApplicationAfter_LI")
+
+ARMマイコン、ARM採用のボードには多種多様があり、それぞれ合わせた開発に必要なソフトウェア群をKeilにインストールします。
+
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/PackInstaller.jpg  "ProgrammingApplicationAfter_LI")
+
+###　ビルド
+ビルドのボタンを押してビルドを開始します。
+
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/BuildButton.jpg  "ProgrammingApplicationAfter_LI")
+
+ビルドに成功したら、書き込みができます。
+
+### 書き込み
+上記のNRFgoと同じようにターゲットと接続いたします。
+Loadボタンを押してターゲットに書き込みを行います。
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/LoadButton.jpg  "ProgrammingApplicationAfter_LI")
