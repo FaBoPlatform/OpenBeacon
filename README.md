@@ -105,6 +105,10 @@ ARMマイコン、ARM採用のボードには多種多様があり、それぞ�
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/PackInstaller.jpg  "ProgrammingApplicationAfter_LI")
 
+ターゲットとなる左のリストBoardタブからボードを探し、右からそれぞれ必要なソフトウェアをInstallボタンをおして、インストールします。
+
+![ProgrammingApplicationAfter](./Photo/KeilPhoto/BoadSelect.jpg  "ProgrammingApplicationAfter_LI")
+
 ### ビルド
 
 ビルドのボタンを押してビルドを開始します。
