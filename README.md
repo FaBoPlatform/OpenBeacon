@@ -101,11 +101,12 @@ https://www.keil.com/download/product/
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/PackDownload.jpg  "ProgrammingApplicationAfter_LI")
 
-ARMマイコン、ARM採用のボードには多種多様があり、それぞれ合わせた開発に必要なソフトウェア群をKeilにインストールします。
+ARMマイコン、ARM採用のボードには多種多様があり、それぞれ合わせた開発に必要なソフトウェア群をKeilにインストールします。下記のPackinstallerボタンを押します。
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/PackInstaller.jpg  "ProgrammingApplicationAfter_LI")
 
-###　ビルド
+### ビルド
+
 ビルドのボタンを押してビルドを開始します。
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/BuildButton.jpg  "ProgrammingApplicationAfter_LI")
@@ -113,6 +114,10 @@ ARMマイコン、ARM採用のボードには多種多様があり、それぞ�
 ビルドに成功したら、書き込みができます。
 
 ### 書き込み
+
 上記のNRFgoと同じようにターゲットと接続いたします。
 Loadボタンを押してターゲットに書き込みを行います。
+
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/LoadButton.jpg  "ProgrammingApplicationAfter_LI")
+
+正しくつながっていれば書き込みは完了します。
