@@ -105,13 +105,13 @@ ARMマイコン、ARM採用のボードには多種多様があり、それぞ�
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/PackInstaller.jpg  "ProgrammingApplicationAfter_LI")
 
-ターゲットとなる左のリストBoardタブからボードを探し、右からそれぞれ必要なソフトウェアをInstallボタンをおして、インストールします。
+ターゲットとなる左のリストBoardタブからボードを探し、右からそれぞれ必要なソフトウェアをInstallボタンをおして、インストールします。※こちらからサンプルコードもダウンロードできます。
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/BoadSelect.jpg  "ProgrammingApplicationAfter_LI")
 
 ### ビルド
 
-ビルドのボタンを押してビルドを開始します。
+ソースコードを入手し、Keilを立ち上げ、前項のNRFgoなどを使いターゲットのフラッシュを消去します。ビルドのボタンを押してビルドを開始します。
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/BuildButton.jpg  "ProgrammingApplicationAfter_LI")
 
