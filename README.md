@@ -83,11 +83,12 @@ ARM純正のコンパイラが使用できます。
 
 ### Keilのダウンロード
 
-MDK－ARMをダウンロードします。
+統合開発環境のKeil　ARMマイコン他にも８０５１シリーズ等が開発できます。
+今回は、MDK－Armをダウンロードします。
 
 ![ProgrammingApplicationAfter](./Photo/KeilPhoto/MDK-ARM_Select.jpg  "ProgrammingApplicationAfter_LI")
 
-ダウンロード先　Keilはコードサイズ３２KBまでなら無償で仕様できます。
+ダウンロード先　Keilはコードサイズ３２KBまでなら無償で使用できます。
 
 https://www.keil.com/download/product/
 
