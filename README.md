@@ -19,7 +19,7 @@ MDK5 Software Packsダウンロード先
 最新のデバイスパックをダウンロードする場合は、直接KeilのWebサイトからNordicSemiconductorの欄からダウンロードして更新する。最新デバイスファミリーパックをダウンロードします。
 http://www.keil.com/dd2/pack/
 
-ダウンロードしたら、KeilのPackInstalerボタンを押して、ImportしてKeilに取り込みます。
+ダウンロードしたら、KeilのPackInstallerボタンを押して、ImportしてKeilに取り込みます。
 ![nrfgoStduioDownload](./Photo/KeilPhoto/importDeviceFamily.jpg  "nrfgoStudio")
 
 nRFgoダウンロード
@@ -45,9 +45,6 @@ Keil内に取り込まれたのサンプルコード(Example)場合でペリフ�
 
 MDK5 Software Packsおよびサンプルコード等ダウンロード先
 http://www.keil.com/dd2/pack/
-
-![Softdevice](./Photo/KeilPhoto/Version2007alpha.jpg  "Softdevice")
-
 
 ## ファームウェア（FW)を書き込む
 
