@@ -14,6 +14,14 @@ Windows(Vista以降)を用意。Windowsの場合は、GUIによりファーム�
 https://www.nordicsemi.com/jpn/node_176/2.4GHz-RF/nRFgo-Starter-Kit
 
 ![nrfgoStduioDownload](./Photo/DownLoadG01.jpg  "nrfgoStudio")
+
+MDK5 Software Packsダウンロード先
+最新のデバイスパックをダウンロードする場合は、直接KeilのWebサイトからNordicSemiconductorの欄からダウンロードして更新する。最新デバイスファミリーパックをダウンロードします。
+http://www.keil.com/dd2/pack/
+
+ダウンロードしたら、KeilのPackInstalerボタンを押して、ImportしてKeilに取り込みます。
+![nrfgoStduioDownload](./Photo/KeilPhoto/importDeviceFamily.jpg  "nrfgoStudio")
+
 nRFgoダウンロード
 
 ### ソフトデバイスをインストール
@@ -23,7 +31,7 @@ nrfgoStudioをインストールしたら、無線やデータを管理する基
 ソフトデバイスをダウンロード
 http://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822
 
-![Softdevice](./Photo/Softdevice.png  "Softdevice")
+![Softdevice](./Photo/KeilPhoto/Version2007alpha.jpg  "Softdevice")
 
 ・ダウンロードできるソフトデバイス一覧
 
@@ -32,6 +40,14 @@ nRF51であれば、以下のものをダウンロードすれば十分でしょ
 s110の場合は、S110-SD-v8をダウンロード
 
 s130の場合は、S130-SDをダウンロード　
+
+Keil内に取り込まれたのサンプルコード(Example)場合でペリフェラルでのS132はこちらの２．０．０－７アルファ版をダウンロードしてご使用ください。その他サンプルコードによって対象になるソフトデバイスを選択してください。
+
+MDK5 Software Packsおよびサンプルコード等ダウンロード先
+http://www.keil.com/dd2/pack/
+
+![Softdevice](./Photo/KeilPhoto/Version2007alpha.jpg  "Softdevice")
+
 
 ## ファームウェア（FW)を書き込む
 
