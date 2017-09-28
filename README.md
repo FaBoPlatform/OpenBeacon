@@ -2,5 +2,5 @@
 
 ## Line Beacon
 
-* [Buildの方法](/docs/README.md)
-* [linebeacon](/linebeacon/README.md)
+* [Fimwareの焼き方](/docs/README.md)
+* [linebeaconの設定方法](/linebeacon/README.md)
